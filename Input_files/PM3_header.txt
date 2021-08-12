@@ -1,0 +1,7 @@
+%nprocs=16
+%mem=40GB
+#P PM3 opt(MaxCycles=50)
+
+Line
+
+-1 1

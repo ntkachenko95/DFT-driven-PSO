@@ -1,0 +1,7 @@
+%nprocs=16
+%mem=40GB
+#P M062X/6-31+g* opt
+
+Line
+
+-1 1

@@ -1,0 +1,19 @@
+#LAUNCHER SETUP (EXAMPLE)
+
+main_path: Include_your_path_here
+script_file_header: TEST
+number_of_generations: 5
+
+#DFT-driven-PSO SETUP (EXAMPLE)
+
+Generation_size: 5
+Saved_population: 2
+Box_size: 10
+Is_Solvatation: True
+fragment_separation: 1.6
+fragment_types: 3
+fragment_numbers: 4 1
+fragment_1_filename: water.xyz
+fragment_3_filename: NO3.xyz
+Header_for_gaussian_DFT_filename: DFT_header.txt
+Header_for_gaussian_PM3_filename: PM3_header.txt
