@@ -89,7 +89,7 @@ for i in [Swarm[k] for k in saved_indices]:
 
 
 for i in rest_indices:
-    Swarm[i]=Particle('particle_'+str(i), fragment_numbers,fragment_1,fragment_2, Box_size=Box_size, Is_Solvatation=Is_Solvatation)
+    Swarm[i]=Particle('particle_'+str(i), fragment_numbers,fragments, Box_size=Box_size, Is_Solvatation=Is_Solvatation)
     Swarm[i].random_initialization()
     Swarm[i].fix_overlap()
     make_gaussian_file(Swarm[i], Header_for_gaussian_PM3)
