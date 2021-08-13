@@ -100,12 +100,6 @@ for i in range(num_generations-1):
         print(str(jobs_run)+' jobs are still running')
         time.sleep(300)
 
-    
-os.system('python Swarm_presice_setup.py')
-with open('Generation.data', 'rb') as f:
-    Generation=pickle.load(f)
-os.chdir(main_path+'/Generation_'+str(Generation))
-os.system('python Sbatch_script.py')
-os.chdir(main_path)
+
     
     
