@@ -11,7 +11,7 @@ Saved_population: 2
 Box_size: 10
 Is_Solvatation: True
 fragment_separation: 1.6
-fragment_types: 3
+fragment_types: 2
 fragment_numbers: 4 1
 fragment_1_filename: water.xyz
 fragment_3_filename: NO3.xyz
